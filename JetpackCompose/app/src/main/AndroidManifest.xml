@@ -11,6 +11,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.JetpackCompose">
         <activity
+            android:name=".TestJetpackComposeActivity"
+            android:exported="false"
+            android:label="@string/title_activity_test_jetpack_compose"
+            android:theme="@style/Theme.JetpackCompose.NoActionBar" />
+        <activity
             android:name=".MainActivity"
             android:exported="true"
             android:label="@string/app_name"
